@@ -1,0 +1,56 @@
+.red{
+    color: #E93434;
+}
+.bg-blue{
+    background: #0D2C99;
+}
+.blue{
+    color: #0D2C99;
+}
+
+.bg-light-blue{
+    background-color: #5c73c5;
+}
+
+.light-blue{
+    color: #5c73c5;
+}
+.navbar{
+    background: #0D2C99;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    border-radius: 0%;
+}
+
+.dropdown-menu .dropdown-item:focus{
+    background: #0D2C99;
+    color: white;
+}
+.list-group-item{
+    transition: background 0.2s ease;
+}
+.list-group-item:hover{
+    background: #D7D7DC;
+}
+
+.decoration-none{
+    text-decoration: none;
+}
+
+.event-card{    
+    color: black;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    transition: box-shadow 0.3s ease;
+}
+
+.event-card:hover{    
+    box-shadow: 10px 10px #5c73c5;
+}
+
+
+
+#scoll-container {
+    max-height: 250px;
+    overflow-y: auto; 
+}
